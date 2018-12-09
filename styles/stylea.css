@@ -1,0 +1,90 @@
+body{        
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.container{
+  width: 80%;
+  margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+  width: 100%;
+  position: fixed;        
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header{
+  top: 0;
+}
+.fixed-footer{
+  bottom: 0;
+}    
+/* Some more styles to beutify this example */
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+
+
+.hero-text {
+  position:absolute;
+  text-align:centre;
+  transform: translate(-50%, -50%);
+  color:white;
+  top:40%;
+  left:40%;
+  font-family:cursive;
+  font-size:50px;
+}
+
+body{
+  background-image:url(../Images/flower.jpg)
+}
+
+.flex-container {
+  display: flex;
+
+  margin-top:100px;
+}
+
+.flex-container > div {
+  background-image:url(../Images/flower.jpg);
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  color:white;
+
+;
+}
+h2{
+  color:rgb(30, 30, 180);
+}
+.intro{
+  color:white;
+  font-size: 40px;
+  font-family: cursive;
+  margin-top:400px;
+  padding-left: 20px;
+
+}
+
+.btn {
+  background-color:white;
+  border: none;
+  color:black;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color:grays;
+}
+
+footer{
+  margin-top:10px;
+  margin-left:80%;
+}
