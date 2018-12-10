@@ -2,6 +2,15 @@ body{
   padding-top: 60px;
   padding-bottom: 40px;
 }
+img{
+  width: 100%;
+}
+
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 .container{
   width: 80%;
   margin: 0 auto; /* Center the DIV horizontally */
@@ -20,27 +29,26 @@ body{
   bottom: 0;
 }    
 /* Some more styles to beutify this example */
-nav a{
+  nav a{
   color: #fff;
   text-decoration: none;
   padding: 7px 25px;
   display: inline-block;
 }
 
+.hero-image {
+  background:url(../Images/flower.jpg) no-repeat;
+  width: 500vw;
+  height:100vh;
+  color:purple;
+  font-size: 100px;
 
-.hero-text {
-  position:absolute;
-  text-align:centre;
-  transform: translate(-50%, -50%);
-  color:white;
-  top:40%;
-  left:40%;
-  font-family:cursive;
-  font-size:50px;
+
 }
+ 
 
 body{
-  background-image:url(../Images/flower.jpg)
+  background-image:url(../Images/flower.jpg);
 }
 
 .flex-container {
@@ -65,7 +73,7 @@ h2{
   color:white;
   font-size: 40px;
   font-family: cursive;
-  margin-top:400px;
+  margin-top:200px;
   padding-left: 20px;
 
 }
@@ -81,7 +89,7 @@ h2{
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color:grays;
+  background-color:gray;
 }
 
 footer{
